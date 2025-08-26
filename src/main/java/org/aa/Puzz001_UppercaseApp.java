@@ -2,7 +2,7 @@ package org.aa;
 
 import reactor.core.publisher.Mono;
 
-public class UppercaseApp {
+public class Puz001_UppercaseApp {
     public static void main(String[] args) {
         Mono.just("Craig")
             .map(n -> n.toUpperCase())
